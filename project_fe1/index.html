@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./public/css/styles.css">
+    <script src="public/js/jquery-3.5.1.min.js"></script>
+    <script src="public/js/bootstrap.js"></script>
+  
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="row">
+                <div class="header-col-left col-sm-4 col-xs-4" id="top-header" style="display: flex;">
+                    <div class="logo">
+                            <img src="./public/images/pattern/logo.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="menu">
+                        <p>X</p>
+                    </div>
+                    <div class="search-header col-sm-4 col-xs-4">
+                        <form action="index.html" id=search-form>
+                            <div class="form-search" style="display: flex;">
+                                <input type="text" size="70" id="search" placeholder="Enter your keyword..."
+                                    class="input-text">
+                                <button type="submit" title="Search" class="button form-button"><i class="fas fa-search"
+                                ></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="header-col-right col-sm-4 col-xs-4" id="icon-header">
+                    <div class="header-tools">
+                        <div class="myaccount">
+                            <div class="tongle">
+                                <i class="fa fa-user"></i>
+                            </div>
+                        </div>
+                        <div class="mysetting">
+                            <div class="tongle"><i class="fa fa-cog"></i></div>
+                        </div>
+                        <div class="shopcart">
+                            <div class="tongle"><i class="fas fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color:#d86a28;" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Men</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tops</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Women</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Accessories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                    <div class="email-header hidden-sm hidden-xs">
+                        <a href="mailto:contact@avaz.com">contact@avaz.com</a>
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./public/images/clients/clients1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="public/images/clients/clients2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="public/images/clients/clients3.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="public/images/clients/clients4.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="public/images/clients/005.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="top-product">
+            <div class="container">
+                <div class="product-header">
+                    <div class="new-product">
+                        <h2>NEW PRODUCTS</h2>
+                    </div>
+                    <div class="type-product text-end">
+                        <span class="title-product">Men</span>
+                        <span class="title-product">Top</span>
+                        <span class="title-product">T-shirts</span>
+                        <span class="title-product">Blouses</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="new">
+        <div class="container">
+            <div class="product-new py-4" style="background:#ffff;">
+                <div class="row type-new">
+                    <div class="col-md-3">
+                        <img src="./public/images/product/00cfg01.jpg" alt="">
+                        <div class="price">
+                            <h6>Configurable Product</h6>
+                            <p>$599.00</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="item-img have-additional">
+                            <span class="ico-product ico-new">New</span>
+                            <a class="product-image" href="./public/images/product/00cfg01k.jpg">
+                                <span class="img-main">
+                                    <img src="./public/images/product/00cfg01k.jpg" alt="">
+                                </span>
+                            </a>
+
+                        </div>
+                        <div class="price">
+                            <h6>Cfg Armani Black</h6>
+                            <p>$624.00</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./public/images/product/00cfg01b.jpg" alt="">
+                        <div class="price">
+                            <h6>Cfg Armani Blue</h6>
+                            <p>$668.00</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./public/images/product/00cfg01g.jpg" alt="">
+                        <div class="price">
+                            <h6>Cfg Armani Green</h6>
+                            <p>$609.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="new-pro">
+                    <div class="row" style="margin-left: 20px;margin-right: -30px;">
+                        <div class="col-sm-4">
+                            <img src="./public/images/clients/001.jpg" alt="">
+                            <div class="price">
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="product-line1" style="margin-bottom: 30px">
+                                <img src="./public/images/clients/clients002.jpg" alt="">
+                            </div>
+                            <div class="product-line2">
+                                <img src="./public/images/clients/003.jpg" alt="">
+                            </div>
+                            <div class="price">
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="./public/images/clients/004.jpg" alt="">
+                            <div class="price">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-sellers">
+                <div class="container">
+                    <div class="sellers-product">
+                        <div class="new-product">
+                            <h2>BEST SELLERS</h2>
+                        </div>
+                        <div class="type-product text-end">
+                            <span class="title-product">Men</span>
+                            <span class="title-product">Women</span>
+                            <span class="title-product">Tops</span>
+                            <span class="title-product">Accessories</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="best-sellers py-4" style="background:#ffff;">
+                <div class="container">
+                    <div class="row type-sellers">
+                        <div class="sellers-pro">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="./public/images/product/01sim0202.jpg" alt="">
+                                    <div class="price">
+                                        <h6>Simple product 02</h6>
+                                        <p>$76.00</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./public/images/product/00cfg04b.jpg" alt="">
+                                    <div class="price">
+                                        <h6>Cfg 04 Blue</h6>
+                                        <p>$109.00</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./public/images/product/03vrt0101.jpg" alt="">
+                                    <div class="price">
+                                        <h6>Virtual Product </h6>
+                                        <p>$95.00</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./public/images/product/01sim0403.jpg" alt="">
+                                    <div class="price">
+                                        <h6>Simple product 04</h6>
+                                        <p>$119.00</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./public/images/product/01sim0105.jpg" alt="">
+                                    <div class="price">
+                                        <h6>Simple product 04</h6>
+                                        <p>$68.00</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./public/images/product/01sim0101.jpg" alt="">
+                                    <div class="price">
+                                        <h6>Cfg 03 Versace Blue</h6>
+                                        <p>$442.89</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./public/images/product/00cfg04w.jpg" alt="">
+                                    <div class="price">
+                                        <h6>Cfg 04 White</h6>
+                                        <p>$100.98</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./public/images/product/00cfg02k.jpg" alt="">
+                                    <div class="price">
+                                        <h6>Cfg 02 Channel Black</h6>
+                                        <p>$373.43</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class=show-button>SHOW MORE</button>
+                <div class="Shop-disscounts py-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="brand py-4">
+                                    <p>SHOP DISCOUNTS</p>
+                                    <div class="content-discounts">
+                                        <h2>BRAND AVAZ</h2>
+                                        <p>Miriure dolor in hendrerit vulputate velit esse molestie con hendrerit in
+                                            <br> vulputate velit hendrerit in vulputate velit
+                                        </p>
+                                    </div>
+                                    <div class="shop-button">
+                                        <button class ="button-sh">SHOP MEN</button>
+                                        <button class ="button-sh">SHOP WOMEN</button>
+                                    </div>
+                                    <div class="icon-disscounts">
+                                        <ul>
+                                            <li><i class="fab fa-facebook-f"></i></li>
+                                            <li><i class="fab fa-dribbble"></i></li>
+                                            <li><i class="fab fa-dropbox"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="other py-4">
+                                    <p>SHOP DISCOUNTS</p>
+                                    <div class="content-discounts">
+                                        <h2>OTHER AVAZ</h2>
+                                        <p>Miriure dolor in hendrerit vulputate velit esse molestie con hendrerit in
+                                            <br>
+                                            vulputate velit hendrerit in vulputate velit
+                                        </p>
+                                    </div>
+                                    <div class="shop-button">
+                                        <button class ="button-sh">SHOP MEN</button>
+                                        <button class ="button-sh">SHOP WOMEN</button>
+                                    </div>
+                                    <div class="icon-disscounts">
+                                        <ul>
+                                            <li><i class="fab fa-facebook-f"></i></li>
+                                            <li><i class="fab fa-dribbble"></i></li>
+                                            <li><i class="fab fa-dropbox"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clients-say">
+                    <div class="container">
+                        <div class="top-clients">
+                            <div class="content-clients">
+                                <div class="title-clients">
+                                    <p>CLIENTS SAY</p>
+                                </div>
+                            </div>
+                            <div class="content-img">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industrys.
+                                    Lorem Ipsum has been the industrys <br> standard dummy text ever since the when an
+                                    unknown printer took a galley of type</p>
+                                <div class="img-name">
+                                    <img src="./public/images/clients/002.jpg" alt="" class="name">
+                                    <p>Andrela</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="from-blog">
+                    <div class="container">
+                        <div class="block-latestblog v1">
+                            <div class="blog-title">
+                                <p>FROM THE BLOG</p>
+                                <div class="navslider">
+                                    <button id="btn-blog1"> <img src="./public/images/pattern/arrow-blog1.png"
+                                            alt=""></button>
+                                    <button id="btn-blog2"> <img src="./public/images/pattern/arrow-blog2.png"
+                                            alt=""></button>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="./public/images/clients/5.jpg" alt="" class="img-fluid">
+                                        <div class="post">
+                                            <div class="post-content">
+                                                <div class="content-bottom">
+                                                    <h5>Donec scelerisque quam vitae est.</h5>
+                                                    <p>Duis imperdiet diam pharetra nisi. Fusce accumsan.Fusce
+                                                        adipisc...
+                                                    </p>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="post-info">
+                                            <div class="author">
+                                                <i class="fa fa-user"></i>
+                                                <span>Nguyen Thang</span>
+                                            </div>
+                                            <div class="comment">
+                                                <i class="fa fa-comment"></i>
+                                                <span class="comment_total">3 Comments</span>
+                                            </div>
+                                            <div class="readmore">
+                                                <i class="fa fa-chevron-circle-right"></i>
+                                                <a href="#" id="read-more1">Read more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./public/images/clients/6.jpg" alt="" class="img-fluid">
+                                        <div class="post">
+                                            <div class="post-content">
+                                                <div class="content-bottom">
+                                                    <h5>Curabitur adipiscing odio in</h5>
+                                                    <p>Duis imperdiet diam pharetra nisi. Fusce accumsan.Fusce
+                                                        adipisc...
+                                                    </p>
+                                                    <div class="post-info readmore-mix">
+                                                        <div class="author">
+                                                            <i class="fa fa-user"></i>
+                                                            <span>Nguyen Thang</span>
+                                                        </div>
+                                                        <div class="comment">
+                                                            <i class="fa fa-comment"></i>
+                                                            <span class="comment_total">3 Comments</span>
+                                                        </div>
+                                                        <div class="readmore">
+                                                            <i class="fa fa-chevron-circle-right"></i>
+                                                            <a href="#" id="read-more2">Read more</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./public/images/clients/7.jpg" class="img-fluid" alt="">
+                                        <div class="post">
+                                            <div class="post-content">
+                                                <div class="content-bottom">
+                                                    <h5>Praesent laoreet ante tempor</h5>
+                                                    <p>Duis imperdiet diam pharetra nisi. Fusce accumsan.Fusce
+                                                        adipisc...
+                                                    </p>
+                                                    <div class="post-info readmore-bottom">
+                                                        <div class="author">
+                                                            <i class="fa fa-user"></i>
+                                                            <span>Nguyen Thang</span>
+                                                        </div>
+                                                        <div class="comment">
+                                                            <i class="fa fa-comment"></i>
+                                                            <span class="comment_total">3 Comments</span>
+                                                        </div>
+                                                        <div class="readmore">
+                                                            <i class="fa fa-chevron-circle-right"></i>
+                                                            <a href="#" id="read-more3">Read more</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-footer">
+                <img src="./public/images/clients/005.png" alt="" id="img-logo1">
+                <img src="./public/images/clients/006.png" alt="" id="img-logo2">
+                <img src="./public/images/clients/003.png" alt="" id="img-logo3">
+                <img src="./public/images/clients/002.png" alt="" id="img-logo4">
+                <img src="./public/images/clients/001.png" alt="" id="img-logo5">
+                <img src="./public/images/clients/005.png" alt="" id="img-logo6">
+            </div>
+            <div class="footer wrap" id="footer-top">
+                <div class="container">
+                    <div class="row" style="padding-bottom: 20px;">
+                        <div class="col-phone-12 col-xs-6 col-sm-6 col-md-3 column1">
+                            <img src="./public/images/clients/logo-footer.png" alt="">
+                            <div class="quote">
+                                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+                                interested.
+                                Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also
+                                reproduced in
+                                their exact original form, accompanied by Malorum by Cicero Dignissim quiblandit
+                                luptatum
+                                zzril
+                                delenit augue duis dolore feugait nulla facilisi
+                            </div>
+                        </div>
+                        <div class="col-phone-12 col-xs-6 col-sm-6 col-md-3 column2">
+                            <h5 class="block-title">INFORMATION</h5>
+                            <div class="info">
+                                <ul>
+                                    <li><a href="#"></a>About us</li>
+                                    <li><a href="#">Delivery Information</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms Condition</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Customer service/ FQA’s</a></li>
+                                    <li><a href="#">Live chat room</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col-phone-12 col-xs-6 col-sm-6 col-md-3 column3">
+                            <h5 class="block-title">AVAZ TWITER</h5>
+                        </div>
+                        <div class="col-phone-12 col-xs-6 col-sm-6 col-md-3 column4">
+                            <h5 class="block-title">CONTACT US</h5>
+                            <div class="contact-us">
+                                <ul class="contact-icon">
+                                    <li><i class="fa fa-home">&nbsp;</i>4 East 80th Street, New York</li>
+                                    <li><i class="fa fa-envelope">&nbsp;</i><a
+                                            href="mailto:contact@avaz.com">contact@avaz.com</a></li>
+                                    <li><i class="fa fa-phone-square">&nbsp;</i>+04 123 456 789</li>
+                                    <li><i class="fa fa-fax">&nbsp;</i>+04 123 456 789</li>
+                                </ul>
+                            </div>
+                            <div class="social">
+                                <div class="follow">
+                                    Follow us:
+                                    <ul>
+                                        <li><i class="fab fa-facebook-f"></i></li>
+                                        <li><i class="fab fa-dribbble"></i></li>
+                                        <li><i class="fab fa-google-plus-g"></i></li>
+                                        <li><i class="fab fa-twitter"></i></li>
+                                        <li><i class="fab fa-dribbble"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer wrap" id="footer-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="copy-right">
+
+                                    © 2015 Magento Demo Store. All Rights Reserved. Designed by
+                                    <a href="http://www.snstheme.com/" data-toggle="tooltip"
+                                        data-original-title="Visit SNSTheme.Com!" title="">SNSTheme.Com.</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="payment-logo">
+                                    <img src="./public/images/clients/payment-logo.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
